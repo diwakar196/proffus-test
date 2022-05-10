@@ -1,0 +1,11 @@
+.nav-buttons{
+    padding-top: 15px;
+    float: right;
+    padding: 10px;
+    margin-right: 50px;
+}
+.logo{
+    float: left;
+    width: 150px;
+    margin-left: 50px;
+}

@@ -1,0 +1,41 @@
+{    
+    "body": [   
+     {
+         "id": 0,
+         "name":"Fish",
+         "imgPath":"https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/DCTM_Penguin_UK_DK_AL644648_p7nd0z.jpg"
+     },
+
+     {
+         "id": 1,
+         "name":"Exotic",
+         "imgPath":"https://p.kindpng.com/picc/s/186-1864287_colormehappy-fish-fishes-tropic-tropical-tropicalfish-tropical-fish.png"
+     },
+     {
+         "id": 2,
+         "name":"Crustacean",
+         "imgPath":"https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/DCTM_Penguin_UK_DK_AL511804_aakskt.jpg"
+     },
+     {
+         "id": 3,
+         "name":"Snail",
+         "imgPath":"https://dictionary.cambridge.org/images/thumb/snail_noun_002_34465.jpg?version=5.0.239"
+     },
+     {
+         "id": 4,
+         "name":"Octopus",
+         "imgPath":"https://images-eu.ssl-images-amazon.com/images/I/51I668bEpPL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg"
+     },
+     {
+         "id": 5,
+         "name":"Urchin",
+         "imgPath":"https://www.collinsdictionary.com/images/full/seaurchin_70837996.jpg"
+     },
+     {
+         "id": 6,
+         "name":" Carp",
+         "imgPath":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Common_carp.jpg/800px-Common_carp.jpg"
+     }
+
+    ]
+}

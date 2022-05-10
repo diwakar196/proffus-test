@@ -1,0 +1,43 @@
+.wtf-img{
+  margin-top: 150px;
+  width: 400px;
+}
+
+.wtf-img-div{
+  text-align: center;
+}
+
+.how-div{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.headings{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.glance{
+  text-align: center;
+}
+
+.glance-img{
+  border-radius: 19px;
+}
+
+.categories-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.categories-heading{
+  margin-left: 50px;
+  display: block;
+}
+
+.categories-list{
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

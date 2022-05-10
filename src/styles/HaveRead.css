@@ -1,0 +1,19 @@
+.haveread-box{
+    border: 0.5px solid rgba(0, 0, 0, 0.425);
+    border-radius: 14px;
+    width: 900px;
+    height: 200px;
+    position: relative;
+    left: 15%;
+    margin: 20px 0 20px 0;
+    padding: 10px 0px 10px 10px;
+    text-align: left;
+    box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.087);
+}
+
+.have-read-more{
+    float: right;
+    color: rgba(0, 106, 255, 0.776);
+    font-weight: bold;
+    margin-right: 40px;
+}
