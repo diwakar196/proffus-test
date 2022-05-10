@@ -1,0 +1,29 @@
+[debug] [2022-05-10T05:53:38.717Z] ----------------------------------------------------------------------
+[debug] [2022-05-10T05:53:38.720Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\divus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-05-10T05:53:38.721Z] CLI Version:   10.8.0
+[debug] [2022-05-10T05:53:38.721Z] Platform:      win32
+[debug] [2022-05-10T05:53:38.721Z] Node Version:  v16.14.2
+[debug] [2022-05-10T05:53:38.722Z] Time:          Tue May 10 2022 11:23:38 GMT+0530 (India Standard Time)
+[debug] [2022-05-10T05:53:38.723Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-10T05:53:38.823Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-10T05:53:38.824Z] > authorizing via signed-in user (divusingh196@gmail.com)
+[debug] [2022-05-10T05:53:38.824Z] [iam] checking project proffustest-aed7c for permissions ["firebase.projects.get"]
+[debug] [2022-05-10T05:53:38.829Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/proffustest-aed7c:testIamPermissions [none]
+[debug] [2022-05-10T05:53:38.830Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/proffustest-aed7c:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-10T05:53:40.464Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/proffustest-aed7c:testIamPermissions 200
+[debug] [2022-05-10T05:53:40.465Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/proffustest-aed7c:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-10T05:53:40.469Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/proffustest-aed7c [none]
+[debug] [2022-05-10T05:53:40.854Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/proffustest-aed7c 200
+[debug] [2022-05-10T05:53:40.855Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/proffustest-aed7c {"projectId":"proffustest-aed7c","projectNumber":"1077307188879","displayName":"ProffusTest","name":"projects/proffustest-aed7c","resources":{"hostingSite":"proffustest-aed7c"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'D:\Projects\proffus'...
+[info] 
+[debug] [2022-05-10T05:53:40.863Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/proffustest-aed7c/sites 
+[debug] [2022-05-10T05:53:42.685Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/proffustest-aed7c/sites 200
+[debug] [2022-05-10T05:53:42.686Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/proffustest-aed7c/sites {"sites":[{"name":"projects/proffustest-aed7c/sites/proffustest-aed7c","defaultUrl":"https://proffustest-aed7c.web.app","appId":"1:1077307188879:web:9640ac3133923b0583b2fa","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-10T05:53:42.686Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/proffustest-aed7c/webApps/1:1077307188879:web:9640ac3133923b0583b2fa/config [none]
+[debug] [2022-05-10T05:53:44.041Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/proffustest-aed7c/webApps/1:1077307188879:web:9640ac3133923b0583b2fa/config 200
+[debug] [2022-05-10T05:53:44.042Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/proffustest-aed7c/webApps/1:1077307188879:web:9640ac3133923b0583b2fa/config {"projectId":"proffustest-aed7c","appId":"1:1077307188879:web:9640ac3133923b0583b2fa","storageBucket":"proffustest-aed7c.appspot.com","apiKey":"AIzaSyCd6erSjrsb5q1EZHI4FtmF5lmrC-k-V9U","authDomain":"proffustest-aed7c.firebaseapp.com","messagingSenderId":"1077307188879","measurementId":"G-69WCJXQJ4X"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
